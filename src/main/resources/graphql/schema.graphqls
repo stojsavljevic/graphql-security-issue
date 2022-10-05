@@ -1,0 +1,47 @@
+# Types
+
+type Post  {
+    id: String!
+    title: String! 
+    author: Author!
+}
+
+type Author  {
+    id: String!
+    name: String!
+}
+
+# ====================================
+
+# Input Types
+
+input CreatePostInput {
+    title: String!
+    authorId: String!
+}
+
+# ====================================
+
+# Queries
+
+type Query {
+    testQuery: String
+}
+
+# ====================================
+
+# Mutations
+
+type Mutation {
+    createPost(createPostInput: CreatePostInput!): Post
+}
+
+# ====================================
+
+# Subscriptions
+
+type Subscription {
+    getNewPost: Post
+}
+
+# ====================================

@@ -1,0 +1,27 @@
+server:
+  port: 8082
+
+spring:
+  graphql:
+    graphiql:
+      enabled: true
+    websocket:
+      path: /subscriptions
+      
+#graphql:
+#  servlet:
+#    enabled: true
+#    exception-handlers-enabled: true
+#    subscriptions:
+#      websocket:
+#        path: /subscriptions
+#  tools:
+#    schema-location-pattern: "**/schema.graphqls"
+#  graphiql:
+#    enabled: true
+      
+logging:
+  level:
+    '[org.springframework.security]': DEBUG
+    
+    
