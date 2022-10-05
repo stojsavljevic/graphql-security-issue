@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GraphqlBasicSecurityApplication {
+public class GraphqlSecurityIssueApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GraphqlBasicSecurityApplication.class, args);
+		SpringApplication.run(GraphqlSecurityIssueApplication.class, args);
 	}
 
 }
