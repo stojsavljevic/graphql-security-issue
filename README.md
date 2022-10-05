@@ -1,4 +1,5 @@
 # Steps to reproduce the issue
+* build the project and run it
 * open <http://localhost:8082/graphiql>
 * authenticate with admin/admin
 * execute test query to check it works
@@ -48,4 +49,4 @@ mutation {
 
 
 # Links
-* <https://github.com/graphql-java/graphql-java-spring/issues/8>
+* Similar issue: <https://github.com/graphql-java/graphql-java-spring/issues/8>
