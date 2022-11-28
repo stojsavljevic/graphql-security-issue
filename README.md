@@ -46,6 +46,7 @@ mutation {
 # Notes
 * In case that `Post` object doesn't contain nested `Author` object, everything works as it should
 * With Java Kickstart (code is here but commented out) everything works as it should
+* With Spring Boot 3.0.0 `/graphql` calls get redirected to login page
 
 
 # Links

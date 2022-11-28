@@ -8,17 +8,12 @@ spring:
     websocket:
       path: /subscriptions
       
-#graphql:
-#  servlet:
-#    enabled: true
-#    exception-handlers-enabled: true
-#    subscriptions:
-#      websocket:
-#        path: /subscriptions
-#  tools:
-#    schema-location-pattern: "**/schema.graphqls"
-#  graphiql:
-#    enabled: true
+#  autoconfigure:
+#    exclude: 
+#    - org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+#    - org.springframework.boot.actuate.autoconfigure.security.servlet.ManagementWebSecurityAutoConfiguration
+#    - org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration
+#    - org.springframework.boot.actuate.autoconfigure.security.reactive.ReactiveManagementWebSecurityAutoConfiguration
       
 logging:
   level:
