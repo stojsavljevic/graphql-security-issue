@@ -1,3 +1,5 @@
+# Issue is solved with Spring Boot 3!
+
 # Steps to reproduce the issue
 * build the project and run it
 * open <http://localhost:8082/graphiql>
